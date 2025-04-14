@@ -33,7 +33,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
           # Change 'my-image' to your actual Docker Hub repository name if desired s
-          image: strimberger/my-image:latest
+          image: strimberger/my-image
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
