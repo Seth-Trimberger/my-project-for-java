@@ -32,7 +32,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          # Change 'my-image' to your actual Docker Hub repository name if desired
+          # Change 'my-image' to your actual Docker Hub repository name if desired s
           image: strimberger/my-image:latest
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
