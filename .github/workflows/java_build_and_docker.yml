@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the code
+      # Step 1: Check out the codes
       - name: Checkout Repository
         uses: actions/checkout@v3
 
