@@ -30,7 +30,7 @@ jobs:
 
       # Step 5: Build and push Docker image to Docker Hub
       - name: Build and Push Docker Image
-        uses: mr-smithers-excellent/docker-build-push@v4
+        uses: strimberger/docker-build-push@v4
         with:
           # Change 'my-image' to your actual Docker Hub repository name if desired
           image: strimberger/my-image:latest
